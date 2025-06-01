@@ -16,5 +16,4 @@ Route::post('products', [ProductApiController::class, 'store']);
 Route::put('products/{id}', [ProductApiController::class, 'update']);
 Route::delete('products/{id}', [ProductApiController::class, 'destroy']);
 
-// Route::post('register', [AuthController::class, 'register']);
-// Route::post('login', [AuthController::class, 'login']);
+
