@@ -3,7 +3,7 @@
 @section('content')
 
     <div class="banner relative bg-cover bg-center h-96 md:h-[600px] lg:h-[700px] xl:h-[800px]"  
-        style="background-image:url('{{ asset('images/lbwkblue.jpg') }}')">
+        style="background-image:url('{{ asset('images/hur.jpg') }}')">
     <div class="swiper-slide-content absolute bottom-0 right-0 flex flex-col items-end justify-end text-right p-6 md:p-10">
         <h2 class="text-3xl md:text-7xl font-bold text-white mb-2 md:mb-4">INNO64 Models</h2>
             <p class="mb-4 text-white md:text-2xl"> Experience the best in diecast with <br>our latest collection.</p>
