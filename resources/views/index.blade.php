@@ -53,7 +53,8 @@
                               <div class="ml-auto">
                                 <form action="{{ url('/cart') }}" method="POST">
                                   @csrf
-                                  <button wire:click.prevent="addToCart('{{ $p->_id }}')" class="focus:outline-none">
+                                  <input type="hidden" name="product_id" value="{{ $p->id }}">
+                                  <button type="submit" class="focus:outline-none">
                                     <img src="{{ asset('images/cart.png') }}" alt="Cart" class="h-6 w-6"/>
                                   </button>
                                 </form>

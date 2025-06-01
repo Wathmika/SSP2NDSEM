@@ -67,7 +67,7 @@ return [
             'region' => env('GCS_DEFAULT_REGION', 'auto'),
             'bucket' => env('GCS_BUCKET'),
             'endpoint' => env('GCS_S3_ENDPOINT', 'https://storage.googleapis.com'),
-            'use_path_style_endpoint' => true,
+            'use_path_style_endpoint' => (true),
             
         ],
 
