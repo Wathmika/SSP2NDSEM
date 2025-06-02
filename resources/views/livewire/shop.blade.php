@@ -16,8 +16,10 @@
                 <select wire:model.live="category" class="w-full border rounded p-2">
                   <option value="All">All Categories</option>
                   <option value="Premium">Premium</option>
-                  <option value="Mainline">MainLine</option>
-                  <option value="Low">Low</option>
+                  <option value="MainLine">MainLine</option>
+                  <option value="Event Exclusive">Event Exclusive</option>
+                  <option value="Collaborations">Collaborations</option>
+                  <option value="Resin">Resin</option>
                 </select>
                 </div>
           
@@ -28,6 +30,8 @@
                     <option value="">All Brands</option>
                     <option value="MINIGT">MiniGT</option>
                     <option value="INNO">INNO</option>
+                    <option value="Hot Wheels">Hot Wheels</option>
+                    <option value="IGNITION MODEL">IGNITION MODEL</option>
                   </select>
                 </div>
           
